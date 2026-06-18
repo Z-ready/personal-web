@@ -1,0 +1,29 @@
+{
+  "name": "rz-site",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite --port 3333 --open",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5",
+    "vue-router": "^4.4",
+    "@vueuse/core": "^11.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1",
+    "@unocss/reset": "^0.63",
+    "unocss": "^0.63",
+    "unplugin-auto-import": "^0.18",
+    "unplugin-icons": "^0.20",
+    "unplugin-vue-components": "^0.27",
+    "@iconify-json/ri": "^1.2",
+    "@iconify-json/simple-icons": "^1.2",
+    "@iconify-json/carbon": "^1.1",
+    "vite": "^5.4",
+    "typescript": "^5.5",
+    "@types/node": "^22.0"
+  }
+}
