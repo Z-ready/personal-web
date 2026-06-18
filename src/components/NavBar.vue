@@ -8,6 +8,7 @@ const { y: scroll } = useWindowScroll()
       class="w-12 h-12 absolute xl:fixed m-5 select-none outline-none"
       to="/"
       focusable="false"
+      aria-label="Home"
     >
       <div
         class="w-11 h-11 rounded-full bg-[#1a1a1a] dark:bg-[#eee] text-white dark:text-[#0a0a0a] flex items-center justify-center font-700 text-lg transition duration-200 hover:scale-105"
@@ -18,6 +19,7 @@ const { y: scroll } = useWindowScroll()
 
     <button
       title="Scroll to top"
+      aria-label="Scroll to top"
       class="fixed right-3 bottom-3 w-10 h-10 rounded-full bg-base border border-base shadow-sm flex items-center justify-center transition duration-300 z-100 print:hidden hover:op100"
       :class="scroll > 300 ? 'op30' : 'op0! pointer-events-none'"
       @click="window.scrollTo({ top: 0, behavior: 'smooth' })"
@@ -28,15 +30,20 @@ const { y: scroll } = useWindowScroll()
     <nav class="nav">
       <div class="spacer" />
       <div class="right" print:op0>
-        <RouterLink to="/" title="Home">
-          <span class="lt-md:hidden">Home</span>
-          <div i-ri-home-2-line class="md:hidden" />
+        <RouterLink to="/" title="Home" aria-label="Home">
+          Home
         </RouterLink>
-        <RouterLink to="/projects" title="Projects">
-          <span class="lt-md:hidden">Projects</span>
-          <div i-ri-lightbulb-line class="md:hidden" />
+        <RouterLink to="/projects" title="Projects" aria-label="Projects">
+          Projects
         </RouterLink>
-        <a href="https://github.com/Z-ready" target="_blank" title="GitHub" class="lt-md:hidden">
+        <a
+          href="https://github.com/Z-ready"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="GitHub"
+          aria-label="GitHub"
+          class="lt-md:hidden"
+        >
           <div i-simple-icons-github />
         </a>
         <ToggleTheme />

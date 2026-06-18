@@ -12,6 +12,7 @@ const toggleDark = useToggle(isDark)
   <button
     class="op50 hover:op100 transition duration-200 cursor-pointer outline-none bg-transparent border-none text-inherit p-0"
     title="Toggle theme"
+    aria-label="Toggle theme"
     @click="toggleDark()"
   >
     <div v-if="isDark" i-ri-sun-line />

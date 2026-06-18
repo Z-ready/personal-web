@@ -12,8 +12,7 @@ document.title = 'Ruidi Zhang'
   </p>
 
   <p class="mb-2 color-soft">
-    Studying at <span class="color-base font-500">UTS</span>
-    <span class="color-muted text-xs ml-2">University of Technology Sydney</span>
+    Studying at <span class="color-base font-500">UTS</span> <span class="color-muted text-sm">(University of Technology Sydney)</span>
   </p>
 
   <div class="mt-5 mb-5 flex flex-wrap gap-x-12 gap-y-4">
@@ -56,6 +55,9 @@ document.title = 'Ruidi Zhang'
     Dreaming up ambitious ideas and turning them into reality is what drives me.
   </p>
   <p class="mb-3 color-soft leading-relaxed">
+    Building AI tools, computer vision experiments, and creative automation workflows.
+  </p>
+  <p class="mb-3 color-soft leading-relaxed">
     I'm fascinated by the future of human-AI collaboration and the possibility
     of building intelligent tools that amplify creativity, productivity, and learning.
   </p>
@@ -77,6 +79,7 @@ document.title = 'Ruidi Zhang'
     <a
       href="https://z-ready.github.io/matrix-visualizer/"
       target="_blank"
+      rel="noopener noreferrer"
       class="block px-4 py-3 -mx-4 rounded-lg hover:bg-[#fafafa] dark:hover:bg-[#111] transition duration-150 op100!"
     >
       <div class="font-600 color-base">matrix-visualizer</div>
@@ -89,6 +92,7 @@ document.title = 'Ruidi Zhang'
     <a
       href="https://github.com/Z-ready/ai-template"
       target="_blank"
+      rel="noopener noreferrer"
       class="block px-4 py-3 -mx-4 rounded-lg hover:bg-[#fafafa] dark:hover:bg-[#111] transition duration-150 op100!"
     >
       <div class="font-600 color-base">ai-template</div>
@@ -101,6 +105,7 @@ document.title = 'Ruidi Zhang'
     <a
       href="https://github.com/Z-ready/practicalAI-cn"
       target="_blank"
+      rel="noopener noreferrer"
       class="block px-4 py-3 -mx-4 rounded-lg hover:bg-[#fafafa] dark:hover:bg-[#111] transition duration-150 op100!"
     >
       <div class="font-600 color-base">practicalAI-cn</div>
@@ -118,11 +123,8 @@ document.title = 'Ruidi Zhang'
     Find me on
   </h2>
   <p class="flex gap-4 flex-wrap">
-    <a href="https://github.com/Z-ready" target="_blank">
+    <a href="https://github.com/Z-ready" target="_blank" rel="noopener noreferrer">
       <span i-simple-icons-github op75 /> GitHub
-    </a>
-    <a href="https://space.bilibili.com/668380" target="_blank">
-      <span i-ri-bilibili-line op75 /> Bilibili
     </a>
   </p>
 </template>

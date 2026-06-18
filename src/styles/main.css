@@ -15,6 +15,18 @@ html.dark {
   background-color: #0a0a0a;
 }
 
+body {
+  color: #1a1a1a;
+}
+
+html.dark body {
+  color: #eee;
+}
+
+a {
+  color: inherit;
+}
+
 ::selection {
   background: #8884;
 }
