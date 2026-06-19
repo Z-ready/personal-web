@@ -4,7 +4,7 @@ document.title = 'Projects — Ruidi Zhang'
 const projects = [
   {
     name: 'matrix-visualizer',
-    desc: 'Interactive matrix visualization tool for linear algebra',
+    desc: 'Visualize matrix transformations for learning linear algebra',
     link: 'https://z-ready.github.io/matrix-visualizer/',
     source: 'https://github.com/Z-ready/matrix-visualizer',
     lang: 'JavaScript',
@@ -12,20 +12,20 @@ const projects = [
   },
   {
     name: 'ai-template',
-    desc: 'AI project template for rapid ML/DL experimentation',
+    desc: 'Starter structure for quickly testing ML/DL ideas',
     link: 'https://github.com/Z-ready/ai-template',
     lang: 'Python',
     color: '#3572A5',
   },
   {
     name: 'MyChromeTheme',
-    desc: 'Custom Chrome browser theme',
+    desc: 'A small Chrome theme experiment around everyday interface personalization',
     link: 'https://github.com/Z-ready/MyChromeTheme',
     lang: 'Theme',
   },
   {
     name: 'practicalAI-cn',
-    desc: 'Practical AI guide — from fundamentals to advanced',
+    desc: 'Notebook-based AI learning notes and practical examples in Chinese',
     link: 'https://github.com/Z-ready/practicalAI-cn',
     lang: 'Jupyter Notebook',
     color: '#DA5B0B',
@@ -35,11 +35,11 @@ const projects = [
 
 const groups = [
   {
-    name: 'Featured',
+    name: 'Current Focus',
     items: projects.filter(p => ['matrix-visualizer', 'ai-template'].includes(p.name)),
   },
   {
-    name: 'Learning',
+    name: 'Learning Notes',
     items: projects.filter(p => ['practicalAI-cn'].includes(p.name)),
   },
   {
