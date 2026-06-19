@@ -36,6 +36,15 @@ const { y: scroll } = useWindowScroll()
         <RouterLink to="/projects" title="Projects" aria-label="Projects">
           Projects
         </RouterLink>
+        <RouterLink to="/uses" title="Uses" aria-label="Uses">
+          Uses
+        </RouterLink>
+        <RouterLink to="/notes" title="Notes" aria-label="Notes">
+          Notes
+        </RouterLink>
+        <RouterLink to="/gallery" title="Gallery" aria-label="Gallery">
+          Gallery
+        </RouterLink>
         <a
           href="https://github.com/Z-ready"
           target="_blank"
